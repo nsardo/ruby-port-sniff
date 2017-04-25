@@ -10,4 +10,4 @@ Feature: Sniff a port
     | ports| [79,80,81] |
     When I enter the ip
     And  I enter the ports
-    Then Then the result should be "port 79 is closed\nport 80 is open\nport 81 is closed"
+    Then the result should be "port 79 is closed\nport 80 is open\nport 81 is closed"
