@@ -1,2 +1,2 @@
 # Nicholas Sardo <ruby.code.artist@gmail.com>
-require 'portSniff/simple_port_sniff.rb'
+require 'simplePortSniff/simple_port_sniff.rb'
