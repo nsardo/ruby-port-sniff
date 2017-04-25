@@ -1,5 +1,5 @@
 
-[![Gem Version](https://badge.fury.io/rb/PortSniff.svg)](https://badge.fury.io/rb/PortSniff)
+[![Gem Version](https://badge.fury.io/rb/SimplePortSniff.svg)](https://badge.fury.io/rb/SimplePortSniff)
 # SimplePortSniff
 Native Ruby naive port sniffer
 
