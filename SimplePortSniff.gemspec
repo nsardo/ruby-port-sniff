@@ -1,6 +1,6 @@
 
 Gem::Specification.new do |s|
-  s.name	        = 'Simpleportsniff'
+  s.name	        = 'SimplePortSniff'
   s.version	      = '1.0.0'
   s.licenses	    = ['MIT']
   s.summary	      = 'Basic native and naive Ruby Port Sniffer'
