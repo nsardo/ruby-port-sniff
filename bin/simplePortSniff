@@ -5,5 +5,5 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'simplePortSniff/simpleportsniff'
 
 
-s = Simpleportsniff.new('google.com', [79, 80, 81])
+s = SimplePortSniff.new('google.com', [79, 80, 81])
 puts s.sniff()
