@@ -1,3 +1,4 @@
+# Nicholas Sardo <ruby.code.artist@gmail.com>
 require 'socket'
 
 class SimplePortSniff

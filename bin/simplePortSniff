@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# Nicholas Sardo <ruby.code.artist@gmail.com>
+# Nicholas Sardo  <ruby.code.artist@gmail.com>
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'simplePortSniff/simpleportsniff'

@@ -3,7 +3,7 @@
 # SimplePortSniff
 Native Ruby naive port sniffer
 
-Input an IP and a range of ports as an array, and get back which of those ports are open or closed.
+Input an IP, and a range of ports as an array, and get back which of those ports are open or closed.
 
 ## To use as a gem
 

@@ -1,4 +1,4 @@
-
+# Nicholas Sardo <ruby.code.artist@gmail.com>
 Feature: Sniff a port
   In order to sniff a port
   As a user

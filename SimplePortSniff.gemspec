@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version	      = '1.0.1'
   s.licenses	    = ['MIT']
   s.summary	      = 'Basic native and naive Ruby Port Sniffer'
-  s.description	  = 'A simple, native, and naive, Ruby Port Sniffer that takes IP and Port range as inputs'
+  s.description	  = 'A simple, native, and naive Ruby Port Sniffer that takes IP and Port range as inputs'
   s.author	      = 'Nicholas Sardo'
   s.email	        = 'nsardo@aol.com'
   s.files	        = %w[
