@@ -1,4 +1,4 @@
 # Nicholas Sardo <ruby.code.artist@gmail.com>
 $LOAD_PATH << File.expand_path( '../../../lib', __FILE__ )
 
-require 'portSniff/port_sniff'
+require 'simplePortSniff/simple_port_sniff'

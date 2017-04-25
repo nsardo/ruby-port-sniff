@@ -1,6 +1,6 @@
 
 [![Gem Version](https://badge.fury.io/rb/PortSniff.svg)](https://badge.fury.io/rb/PortSniff)
-# PortSniff
+# SimplePortSniff
 Native Ruby naive port sniffer
 
 Input an IP and a range of ports as an array, and get back which of those ports are open or closed.
@@ -14,9 +14,9 @@ gem install PortSniff
 Then, in your source file:
 
 ```
-require 'PortSniff
+require 'SimplePortSniff'
 
-ps = PortSniff.new( 'google.com', [79,80,81] )
+ps = SimplePortSniff.new( 'google.com', [79,80,81] )
 puts s.sniff()
 ```
 RETURNS:
@@ -31,7 +31,7 @@ RETURNS:
 
 ### To Run:
 ```
-cd into bin/ and type: ./portSniff (the file is already chmod a+x)
+cd into bin/ and type: ./simplePortSniff (the file is already chmod a+x)
 ```
 
 ### To Run Cucumber Tests:

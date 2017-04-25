@@ -1,6 +1,6 @@
 require 'socket'
 
-class PortSniff
+class SimplePortSniff
 
   def initialize( ip, ports )
     @ip     = ip
