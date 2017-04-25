@@ -1,5 +1,7 @@
+
+[![Gem Version](https://badge.fury.io/rb/PortSniff.svg)](https://badge.fury.io/rb/PortSniff)
 # PortSniff
-Native Ruby nieve port sniffer
+Native Ruby naive port sniffer
 
 Input an IP and a range of ports as an array, and get back which of those ports are open or closed.
 
