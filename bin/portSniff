@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# Nicholas Sardo <ruby.code.artist@gmail.com>
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'portSniff/port_sniff'
+
+
+s = PortSniff.new( 'google.com', [79,80,81])
+puts s.sniff()
