@@ -18,7 +18,7 @@ When(/^I enter the ports$/) do
 end
 
 Then(/^Then the result should be "([^"]*)"$/) do |arg1|
-  @sps = SimplePortSniff.new( @ip.to_s, @ports )
+  @sps = Simpleportsniff.new(@ip.to_s, @ports )
   rslt = @sps.sniff()
   rslt == arg1
 end

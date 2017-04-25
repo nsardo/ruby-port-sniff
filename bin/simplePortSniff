@@ -2,8 +2,8 @@
 # Nicholas Sardo <ruby.code.artist@gmail.com>
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'simplePortSniff/simple_port_sniff'
+require 'simplePortSniff/simpleportsniff'
 
 
-s = SimplePortSniff.new( 'google.com', [79,80,81])
+s = Simpleportsniff.new('google.com', [79, 80, 81])
 puts s.sniff()

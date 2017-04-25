@@ -1,6 +1,6 @@
 
 Gem::Specification.new do |s|
-  s.name	        = 'SimplePortSniff'
+  s.name	        = 'Simpleportsniff'
   s.version	      = '1.0.0'
   s.licenses	    = ['MIT']
   s.summary	      = 'Basic native and naive Ruby Port Sniffer'
@@ -10,12 +10,12 @@ Gem::Specification.new do |s|
   s.files	        = %w[
     README.md
     LICENSE
-    lib/simple_port_sniff.rb
-    lib/simplePortSniff/simple_port_sniff.rb
+    lib/simpleportsniff.rb
+    lib/simplePortSniff/simpleportsniff.rb
     features/simplePortSniff.feature
     features/step_definitions/simplePortSniff_steps.rb
     features/support/env.rb
     bin/simplePortSniff
 ]
-  s.homepage	    = 'https://rubygems.org/gems/SimplePortSniff'
+  s.homepage	    = 'https://rubygems.org/gems/Simpleportsniff'
 end
